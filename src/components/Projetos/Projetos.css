@@ -1,0 +1,30 @@
+.caixaProjetos {
+  margin: 2rem;
+}
+
+.imgProjetos {
+  width: 250px;
+}
+
+.conteudo {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+  color: var(--primeira-color);
+  text-decoration: none;
+  border: 0.094rem dashed var(--segunda-color);
+  padding: 0.31rem;
+  font-size: 1.563rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .botao {
+    font-size: 0.625rem;
+  }
+}
+
+.conteudo:hover {
+  color: white;
+  background: var(--segunda-color);
+}

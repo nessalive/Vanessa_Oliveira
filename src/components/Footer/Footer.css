@@ -1,0 +1,21 @@
+.caixa_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minetexto {
+  color: var(--primeira-color);
+  margin-right: 1rem;
+}
+
+.icon_img {
+  margin: 1.5rem 0 1.5rem 0;
+  width: 2.75rem;
+}
+
+@media (max-width: 800px) {
+  .caixa_teams {
+    flex-direction: column;
+  }
+}

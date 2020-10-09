@@ -1,0 +1,17 @@
+:root {
+  --primeira-color: #367373;
+  --segunda-color: #73b8bf;
+  font-family: "Lobster", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}

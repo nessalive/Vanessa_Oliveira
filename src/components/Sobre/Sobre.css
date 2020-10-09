@@ -1,0 +1,44 @@
+.caixaSobre {
+  margin: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .caixa {
+    flex-direction: column;
+  }
+}
+
+.foto {
+  border: 0.188rem dashed var(--segunda-color);
+}
+
+.me {
+  color: var(--primeira-color);
+  margin: 2.5rem;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .me {
+    margin: 3.125rem;
+  }
+}
+
+.nome {
+  color: var(--primeira-color);
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .nome {
+    margin: 3.125rem;
+  }
+}
