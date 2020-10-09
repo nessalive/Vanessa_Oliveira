@@ -13,6 +13,7 @@
 
 .foto {
   border: 0.288rem dashed var(--segunda-color);
+  display: flex;
 }
 
 .me {
@@ -23,6 +24,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .foto {
+    flex-direction: column;
+  }
+
   .me {
     margin: 3.125rem;
   }
