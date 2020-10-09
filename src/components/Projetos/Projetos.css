@@ -1,13 +1,18 @@
+.titulo {
+  color: var(--primeira-color);
+  margin: 2rem;
+}
+
 .caixaProjetos {
   margin: 2rem;
 }
 
 .imgProjetos {
-  width: 250px;
+  width: 400px;
 }
 
 .conteudo {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   text-align: center;
   margin: 1rem;

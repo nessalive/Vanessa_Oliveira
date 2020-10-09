@@ -10,7 +10,7 @@ import gato from '../../assets/gato.JPG';
 const Projetos = () => {
   return (
     <div>
-      <h2>Alguns dos meus trabalhos</h2>
+      <h2 className="titulo">Alguns dos meus trabalhos</h2>
       <div className="caixaProjetos">
       <div>
         <img className="imgProjetos" src={bateria} alt="foto de um site"/>
